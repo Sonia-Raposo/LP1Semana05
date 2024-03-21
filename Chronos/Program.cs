@@ -30,6 +30,15 @@ namespace Chronos
             crono1.Stop();
             crono2.Stop();
 
+            //Crono 1 and 2 time ellapsed in s
+            float timer1 = crono1.ElapsedMilliseconds / 1000f;
+            float timer2 = crono2.ElapsedMilliseconds / 1000f;
+
+
+            //Print time of Crono 1 and 2 with 3 decimals
+            Console.WriteLine($"Crono 1: {timer1:f3}");
+            Console.WriteLine($"Crono 2: {timer2:f3}");
+
 
         }
     }
