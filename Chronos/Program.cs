@@ -20,6 +20,17 @@ namespace Chronos
             Thread.Sleep(600);
 
 
+            //Crono 2 Start
+            crono2.Start();
+
+            //Crono 2 Sleep 0.2s
+            Thread.Sleep(200);
+
+            //Stop cronos
+            crono1.Stop();
+            crono2.Stop();
+
+
         }
     }
 }
