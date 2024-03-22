@@ -2,6 +2,10 @@
 
 namespace RanDice
 {
+    /// <summary>
+    /// Accepts 2 int args, first being number of dice and second the seed
+    /// After inserted and enter, the result will be printed
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -25,12 +29,10 @@ namespace RanDice
                 int randomN = random.Next (1,7);
 
                 result += randomN;
-
             }
 
             //print dice result
             Console.WriteLine(result);
-
         }
     }
 }
