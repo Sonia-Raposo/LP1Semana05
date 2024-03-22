@@ -17,8 +17,12 @@ namespace MyGame
         {
             this.name = name;
             health = 100;
-            shield =0;
+            shield = 0;
         }
-      
+
+        public string GetName ()
+        {
+            return name;
+        }
     }
 }
