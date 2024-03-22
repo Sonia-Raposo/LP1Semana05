@@ -35,6 +35,17 @@ namespace MyGame
             return shield;
         }
 
+        public string SetName(string changeName)
+        {
+            if (changeName.Length > 8)
+                return name;
+            
+            else
+            {
+                return name = changeName;
+            }
+        }
+
 
         /// <summary>
         /// Damage is first inflicted on enemy shield, reducing its value
