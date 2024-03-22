@@ -23,7 +23,18 @@ namespace MyGame
         public string GetName ()
         {
             return name;
+
         }
+        public float GetHealth()
+        {
+            return health;
+        }
+
+        public float GetShield()
+        {
+            return shield;
+        }
+
 
         /// <summary>
         /// Damage is first inflicted on enemy shield, reducing its value
@@ -44,5 +55,6 @@ namespace MyGame
                     health = 0;
             }
         }
+
     }
 }
