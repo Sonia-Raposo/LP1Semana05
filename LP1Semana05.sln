@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomTest", "RandomTest\Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RanDice", "RanDice\RanDice.csproj", "{647B3A59-5734-4ACF-9B9E-87C50B7EDE12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame", "MyGame\MyGame.csproj", "{A32C160C-34B8-402C-8CD6-E80170254DBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{647B3A59-5734-4ACF-9B9E-87C50B7EDE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{647B3A59-5734-4ACF-9B9E-87C50B7EDE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{647B3A59-5734-4ACF-9B9E-87C50B7EDE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32C160C-34B8-402C-8CD6-E80170254DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32C160C-34B8-402C-8CD6-E80170254DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32C160C-34B8-402C-8CD6-E80170254DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32C160C-34B8-402C-8CD6-E80170254DBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
